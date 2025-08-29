@@ -18,3 +18,8 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: puchi_ble_v1
+    shield: corne_left
+  - board: puchi_ble_v1
+    shield: corne_right
