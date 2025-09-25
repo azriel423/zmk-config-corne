@@ -34,7 +34,7 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <11 24>;
+            key-positions = <11 23>;
         };
 
         cut {
@@ -60,6 +60,11 @@
         end {
             bindings = <&kp END>;
             key-positions = <19 31>;
+        };
+
+        clearBTprofil {
+            bindings = <&bt BT_CLR>;
+            key-positions = <12 0 12>;
         };
     };
 
