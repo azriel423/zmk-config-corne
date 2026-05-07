@@ -72,6 +72,11 @@
             bindings = <&tog 1>;
             key-positions = <0 12>;
         };
+
+        Escape {
+            bindings = <&kp ESC>;
+            key-positions = <12 24>;
+        };
     };
 
     keymap {
